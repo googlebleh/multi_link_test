@@ -1,3 +1,6 @@
+# main build target binary
+/main
+
 # Prerequisites
 *.d
 
