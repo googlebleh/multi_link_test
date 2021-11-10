@@ -1,5 +1,5 @@
 prog = main
-dynamic_libs = one two
+dynamic_libs ?= one two
 dep_libnames = $(addprefix lib,$(dynamic_libs))
 dep_libfnames = $(addsuffix .so,$(dep_libnames))
 
